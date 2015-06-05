@@ -1,9 +1,37 @@
 body{
 	background-color: #FFFFFF;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Futura', serif;
     font-size: 16px;
    	width: 800px;
-    padding: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
     border: 16px solid #c7ffef; 
-    margin: 40px;
+    margin: 30px;
 }
+
+h1{
+	font-family: 'Futura' bold;
+	font-size: 60px;
+	text-align: left;
+ }
+
+ h2{
+ 	font-size: 20px;
+ 	padding-top: 24px;
+ 	color: #FF6666;
+ 	margin-top: 10px;
+ }
+
+ .email{
+ 	margin-top: -72px;
+ 	margin-left: 480px;
+ }
+
+ .intro{
+ 	margin-top: 40px;
+ 	font-size: 18px;
+ 	margin-bottom: 30px;
+ }
+
