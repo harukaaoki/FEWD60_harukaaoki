@@ -11,6 +11,10 @@ body{
     margin: 30px;
 }
 
+a{
+	color: #FF6666;
+}
+
 h1{
 	font-family: 'Futura' bold;
 	font-size: 60px;
@@ -35,3 +39,11 @@ h1{
  	margin-bottom: 30px;
  }
 
+.skills_copy{
+	margin-bottom: 35px;
+}
+
+.footer{
+	margin-top: 35px;
+	text-align: center;
+}
