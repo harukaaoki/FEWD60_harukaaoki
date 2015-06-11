@@ -1,4 +1,4 @@
-body{
+body {
 	font-family: 'Lato', 'Helvetica', sans-serif;
 	line-height: 25px;
 	background: #FFFFFF;
@@ -10,32 +10,79 @@ body{
 }
 
 
-header h1 a{
+h1 {
 	color: red;
-	font-size: 40px;
+	font-size: 3em;
 	text-decoration: none; /* no underline */
 }
 
 
-header h2{
+h2 {
 	color: black;
-	font-size: 30px;
+	font-size: 2em;
 }
 
-header nav a{
-	color: #f8f8f8;
-	font-size: 25px;
-	padding-right: 10px;
-}
-
-article h2 a{
+h2 a {
 	color: black;
+	font-size: 2em;
+	text-decoration: none;
 }
 
-article h3{
-	color: #e1e1e1;
-}
-
-article h4 a{
+h2 a:hover {
 	color: red;
 }
+
+h3 {
+	color: #e1e1e1;
+	font-size: 2em;
+}
+
+h4 {
+	color: red;
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+
+}
+
+header h2 {
+	font-size: 1.5em;
+	margin-bottom: .5em;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #DDD;
+	font-size: 1.25em;
+	margin-right: 0.75em; /* space between the links*/
+	border-bottom: 2px solid #EEE;
+}
+
+header nav a:hover {
+	color: black;
+	border-bottom-color: #BBB; 
+}
+
+footer {
+	color: red;
+}
+
+article {
+	border-bottom: 1px solid #DDD;
+	margin: 3em 0;
+	padding-bottom: 1.5em;
+}
+
+article p:first-letter {
+	float: left;
+	font-size: 6em;
+	line-height: 1;
+	color: #DDD
+	margin: -0.1em 1em -0.1em;
+}
+
