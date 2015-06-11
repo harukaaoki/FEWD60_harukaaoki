@@ -1,0 +1,41 @@
+body{
+	font-family: 'Lato', 'Helvetica', sans-serif;
+	line-height: 25px;
+	background: #FFFFFF;
+	color:#444;
+	margin: 0px;
+	padding: 10px;
+	max-width: 800px;
+	border-left: 6px solid #DDDDDD;
+}
+
+
+header h1 a{
+	color: red;
+	font-size: 40px;
+	text-decoration: none; /* no underline */
+}
+
+
+header h2{
+	color: black;
+	font-size: 30px;
+}
+
+header nav a{
+	color: #f8f8f8;
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+article h2 a{
+	color: black;
+}
+
+article h3{
+	color: #e1e1e1;
+}
+
+article h4 a{
+	color: red;
+}
