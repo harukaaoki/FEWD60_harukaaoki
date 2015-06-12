@@ -68,8 +68,12 @@ header nav a:hover {
 	border-bottom-color: #BBB; 
 }
 
-footer {
+footer nav a{
 	color: red;
+}
+
+footer p {
+	color: #BBB;
 }
 
 article {
