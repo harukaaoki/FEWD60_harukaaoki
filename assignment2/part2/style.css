@@ -1,3 +1,21 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 body {
 	margin: 0;
 	width: 60em;
@@ -9,7 +27,7 @@ body {
 	line-height: 1.5;
 	border-left: 6px solid #DDD;
 }
-#main {
+main {
 	float: left;
 	width: 66.66667%;
 }

@@ -1,0 +1,83 @@
+body{
+	width: 60em;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+header {
+	padding: 0 0 10px 30px;
+	background: black;
+	border-bottom: 4px solid #f0f700;
+}
+header p {
+	font-size: 3em;
+	color: #f0f700;
+	padding: 10px;
+}
+
+header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 160px;
+	position: relative;
+}
+
+header nav ul li {
+	color: #fff;
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 1.2em;
+}
+
+header nav ul a:hover{
+	color: #f0f700;
+}
+
+h1{
+	padding: 10px 0 10px 0; 
+	background-color: #c6c6c6;
+}
+
+h1 p {
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+.image {
+	background: transparent 
+	url('../assets/coworking.jpg') 
+	center 
+	no-repeat;
+	width: 100%;
+  	height: 500px;
+}
+
+.image {
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+aside {
+	position: relative;
+		left:730px;
+		top: 60px;
+	background-color: rgba(0,0,0,0.25);
+	width: 300px;
+	height: 400px;
+}
+
+aside h2{
+	font-weight: bold;
+}
+
+button {
+	background-color: #f0f700;
+	width: 140px;
+	height: 50px;
+}
