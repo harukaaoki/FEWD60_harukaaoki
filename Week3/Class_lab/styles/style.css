@@ -21,7 +21,7 @@ header p {
 	padding: 10px;
 }
 
-header nav ul{
+header nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0 0 0 160px;
@@ -35,7 +35,7 @@ header nav ul li {
 	font-size: 1.2em;
 }
 
-header nav ul a:hover{
+header nav ul a:hover {
 	color: #f0f700;
 }
 
@@ -67,11 +67,15 @@ h1 p {
 	background-size: cover;
 }
 
+.bottom-section article button {
+	background-color: #c6c6c6
+}
+
 aside {
 	position: relative;
 		left:730px;
 		top: 50px;
-	background-color: rgba(255, 255, 255,0.25);
+	background-color: rgba(255, 255, 255,0.75);
 	width: 270px;
 	height: 360px;
 	padding: 20px;
@@ -91,9 +95,11 @@ button {
 	background-color: #f0f700;
 	width: 240px;
 	height: 50px;
-	font-size: 0.75em;
+	font-size: 1.4em;
+	font-family: Impact;
 	font-weight: bold;
 	margin-top: 20px;
+	margin-left: 15px;
 }
 
 section article {
@@ -104,7 +110,27 @@ section article h3 {
 	font-size: 1.75em;
 }
 
-.bottom-section article {
+
+.bottom-section {
+	margin-top: 20px;
+	display: inline-block;
+	width: 60em;
 	height: 300px;
+}
+	
+.bottom-section article {
 	width: 250px;
+}
+
+.bottom-middle-section {
+	padding: 0 30px 0 30px;
+	border-left: 1px solid #c6c6c6; 
+	border-right: 1px solid #c6c6c6; 
+
+}
+
+footer {
+	background-color: black;
+	color: #fff;
+	padding: 10px;
 }
