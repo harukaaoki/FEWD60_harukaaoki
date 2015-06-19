@@ -1,0 +1,24 @@
+Task list:
+- Define two players
+- Get value from “player 1”
+- Get value from “player 2” 
+- Compare values of “player 1” and “player 2” 
+- Perform calculations:
+	- r < p
+	- p < s
+	- s < r
+- If values chosen by two players are equal, then play again
+- Alert player with greater value as “winner” 
+
+Pseudocode:
+
+method playRockPaperScissors():
+	Define player1 and player2
+	Get value from player1 and player2:
+		Perform calculations:
+			r < p
+			p < s
+			s < r
+		while calculations have same value:
+			Play again
+	Alert player with greater value as winner
