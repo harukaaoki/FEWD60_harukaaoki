@@ -19,6 +19,7 @@ method playRockPaperScissors():
 			r < p
 			p < s
 			s < r
-		while calculations have same value:
+		IF player 1 value = player 2 value THEN
 			Play again
-	Alert player with greater value as winner
+		ELSE
+		Alert player with greater value as winner
