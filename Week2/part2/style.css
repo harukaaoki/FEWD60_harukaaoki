@@ -27,6 +27,7 @@ body {
 	line-height: 1.5;
 	border-left: 6px solid #DDD;
 }
+
 main {
 	float: left;
 	width: 66.66667%;
@@ -127,6 +128,7 @@ header nav ul{
 
 header nav ul li{
 	float: left;
+	/*EM: you can get the same effect by using display:inline; */
 	width: 15%;
 	margin: 0;
 	padding: 0;
@@ -145,18 +147,19 @@ header nav a {
 article {
 	border-bottom: 1px solid #DDD;
 	margin: 3em 0
-	padding-bottom:1.5em;
-}
+	padding-bottom:1.5em; 
+} /*you are missing a closing semi-colon on your margin */
 
 article p:first-of-type:first-letter {
 	float: left;
 	font-size: 6em;
 	line-height: 1;
 	color: #DDD;
-	margin: -.1em .1em 0 -.1em;
+
 }
 
 .copy1 {
 	border-bottom: 1 px solid #DDD;
+	/* EM: Should be "1px" */
 	padding: 1.5em 0;
 }
