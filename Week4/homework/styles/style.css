@@ -28,6 +28,7 @@ header nav ul {
 	position: relative;
 }
 
+
 header nav ul li {
 	color: #fff;
 	display: inline-block;
@@ -35,9 +36,12 @@ header nav ul li {
 	font-size: 1.2em;
 }
 
+/*
 header nav ul a:hover {
 	color: #f0f700;
 }
+*/
+
 
 h1{
 	padding: 10px 0 10px 0; 
@@ -111,18 +115,18 @@ section article h3 {
 }
 
 
-.bottom-section {
+box1 {
 	margin-top: 20px;
 	display: inline-block;
 	width: 60em;
 	height: 300px;
 }
 	
-.bottom-section article {
+box2 {
 	width: 250px;
 }
 
-.bottom-middle-section {
+box3 {
 	padding: 0 30px 0 30px;
 	border-left: 1px solid #c6c6c6; 
 	border-right: 1px solid #c6c6c6; 
@@ -133,4 +137,26 @@ footer {
 	background-color: black;
 	color: #fff;
 	padding: 10px;
+}
+
+.blue-steel {
+   /* 
+	Can't seem to change the colour of the links! I'm trying to change the link colour. 
+
+   Is this another way to change the colour? 
+   from {color: white;}
+   to {color: yellow;}
+    */
+
+
+  -webkit-transition: color 2s ease-in;
+  -moz-transition: color 2s ease-in;
+  -o-transition: color 2s ease-in;
+  transition: color 2s ease-in;
+
+}
+
+.blue-steel:hover {
+  color: #f0f700;
+  font-size: 1.05em;
 }
