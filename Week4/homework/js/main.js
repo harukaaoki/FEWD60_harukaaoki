@@ -6,11 +6,11 @@ For link1, I tried changing the colour of the link text (instead of the backgrou
 var link1 = document.getElementById('firstLink');
 
 link1.addEventListener('mouseover', function(){
-	link1.setAttribute('style', 'background-color: grey;');
+	link1.setAttribute('style', 'color: grey;');
 });
 
 link1.addEventListener('mouseout', function(){
-	link1.setAttribute('style', 'background-color: transparent;');
+	link1.setAttribute('style', 'color: white;');
 });
 
 
@@ -20,11 +20,11 @@ var link2 = document.getElementById('secondLink');
 
 
 link2.addEventListener("mouseover", function(){
-	link2.setAttribute('style', 'background-color: grey;');
+	link2.setAttribute('style', 'color: grey;');
 });
 
 link2.addEventListener("mouseout", function(){
-	link2.setAttribute('style', 'background-color: transparent;');
+	link2.setAttribute('style', 'color: white;');
 });
 
 
@@ -32,11 +32,11 @@ link2.addEventListener("mouseout", function(){
 var link3 = document.getElementById('thirdLink');
 
 link3.addEventListener("mouseover", function(){
-	link3.setAttribute('style', 'background-color: grey;');
+	link3.setAttribute('style', 'color: grey;');
 });
 
 link3.addEventListener("mouseout", function(){
-	link3.setAttribute('style', 'background-color: transparent;');
+	link3.setAttribute('style', 'color: white;');
 });
 
 

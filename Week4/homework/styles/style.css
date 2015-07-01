@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
 	width: 60em;
 	margin: 0;
@@ -23,17 +27,18 @@ header p {
 
 header nav ul {
 	list-style: none;
-	margin: 0;
-	padding: 0 0 0 160px;
+	margin: -10px 0 10px 0;
+	padding: 0 0 0 170px;
 	position: relative;
 }
 
 
 header nav ul li {
-	color: #fff;
 	display: inline-block;
 	padding: 0 20px;
-	font-size: 1.2em;
+	font-size: 1.15em;
+	color: #fff;
+	text-decoration: none;
 }
 
 /*
@@ -83,12 +88,15 @@ aside {
 	width: 270px;
 	height: 360px;
 	padding: 20px;
-	line-height: 2;
+	line-height: 1.5;
+	font-size: 0.95em;
 }
 
 section aside h2 {
 	font-weight: bold;
 	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 aside p {
@@ -103,60 +111,75 @@ button {
 	font-family: Impact;
 	font-weight: bold;
 	margin-top: 20px;
-	margin-left: 15px;
+	margin-left: -5px;
 }
 
-section article {
-	width: 400px;
+.big-box {
+	width: 60em;
+	height: 400px
 }
-
-section article h3 {
-	font-size: 1.75em;
-}
-
-
-box1 {
+.box1 {
 	margin-top: 20px;
 	display: inline-block;
-	width: 60em;
-	height: 300px;
+	width: 20em;
+	height: 400px;
+	background-color: #fff;
+	padding: 0 30px 0 30px;
 }
 	
-box2 {
-	width: 250px;
-}
-
-box3 {
+.box2 {
+	margin-top: 20px;
+	display: inline-block;
+	width: 20em;
+	height: 370px;
+	background-color: #fff;
 	padding: 0 30px 0 30px;
 	border-left: 1px solid #c6c6c6; 
 	border-right: 1px solid #c6c6c6; 
 
 }
 
+.box3 {
+	margin-top: 20px;
+	display: inline-block;
+	width: 19.3em;
+	height: 400px;
+	background-color: #fff;
+	padding: 0 30px 0 30px;
+}
+
+.big-box h3 {
+	font-size: 2em;
+	padding-top: 20px;
+	font-family: serif;
+}
+
+.big-box p {
+	font-size: 1.2em;
+	padding-top: 20px;
+}
+
+.big-box button {
+	background-color: #bdbebd; 
+}
+
 footer {
 	background-color: black;
 	color: #fff;
 	padding: 10px;
+	margin-top: 20px;
 }
 
 .blue-steel {
-   /* 
-	Can't seem to change the colour of the links! I'm trying to change the link colour. 
 
-   Is this another way to change the colour? 
-   from {color: white;}
-   to {color: yellow;}
-    */
-
-
-  -webkit-transition: color 2s ease-in;
-  -moz-transition: color 2s ease-in;
-  -o-transition: color 2s ease-in;
-  transition: color 2s ease-in;
+  -webkit-transition: color 1s ease-in;
+  -moz-transition: color 1s ease-in;
+  -o-transition: color 1s ease-in;
+  transition: color 1s ease-in;
 
 }
 
 .blue-steel:hover {
   color: #f0f700;
-  font-size: 1.05em;
+  font-size: 1.01em;
 }
