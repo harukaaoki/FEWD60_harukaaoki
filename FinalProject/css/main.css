@@ -1,5 +1,5 @@
 #hamburger {
-	position: absolute; 
+/*	position: fixed; */
 	left: 2%; 
 	top: 5%;
 	cursor: pointer;
@@ -20,6 +20,18 @@
 }
 #hamburger span:after {
   bottom: -14px;
+}
+
+nav a{
+	color: #000;
+  	display: block;
+  	padding: 10px 5px 15px 20px;
+  	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ff6987;
+	text-decoration: none;
 }
 
 #coverpage {
@@ -56,44 +68,35 @@
 	color: #000;
 }
 
-.nav ul {
-	background-color: #b8fb9e;
+nav ul {
+/*	background-color: #b8fb9e;*/
    	list-style: none;
   	margin: 0;
   	padding: 0;
 }
 
-.nav ul li {
+nav ul li {
 	font-family: 'Futura', sans-serif;
 }
 
-.nav a{
-	color: #000;
-  	display: block;
-  	padding: 10px 5px 15px 20px;
-  	text-decoration: none;
-}
 
-.nav a:hover {
-	color: #ff6987;
-	text-decoration: none;
-}
-
-.nav #hamburger ul {
+nav ul {
   font-size: .8em;
-  position: absolute;
   display: none;
   width: inherit;
 }
 
-.nav #hamburger ul {
+nav ul {
 	display: none;
 }
 
-.nav #hamburger:hover ul {
-  display: block;
+/*ul.expand {
+	display: block !important;
+	position: fixed;
+  top: 15%;
+  left:2%;
 }
-
+*/
 #numberOne {
 	background-color: #D1FB9E; 
 	height: 800px;
@@ -302,8 +305,3 @@
 }
 
 
-
-/*
-.nav li{
-	display: block;
-}*/
