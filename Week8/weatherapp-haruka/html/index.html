@@ -1,0 +1,34 @@
+<!-- Create a form that has these fields
+textbox – cityName
+submit button
+
+Create a submit listener for it using jQuery
+
+Get the city name from the form and storage in a variable
+
+In the submit listener, retrieve the data with AJAX. the data is at this url:
+http://api.openweathermap.org/data/2.5/weather?q=<CITYNAME>
+
+Print out that data using console.log() or append it as a list to your html --> 
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+		<meta charset="UTF-8"/>
+		<title>Weather App</title>
+</head>
+
+	<body>
+
+	<form id="city" method="post">
+	City: <input id="inputCity" type="text" placeholder="City" name="cityName">
+	<input type = "submit" value="See Weather Info">
+	</form>
+
+	<div id="weather"></div>
+
+	<script src"../js/jquery-2.1.4.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="../js/main.js"></script>
+	</body>
+
+</html>
