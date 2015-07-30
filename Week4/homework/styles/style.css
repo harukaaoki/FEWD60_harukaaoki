@@ -1,6 +1,8 @@
+
 * {
 	box-sizing: border-box;
 }
+
 
 body{
 	width: 60em;
@@ -8,6 +10,10 @@ body{
 	font-family: Futura, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
+}
+
+a {
+	color:inherit;
 }
 
 h1 p span {
@@ -140,10 +146,12 @@ button {
 }
 
 .box3 {
+
+
 	margin-top: 20px;
 	display: inline-block;
 	width: 19.3em;
-	height: 400px;
+	height: 360px;
 	background-color: #fff;
 	padding: 0 30px 0 30px;
 }
@@ -159,9 +167,18 @@ button {
 	padding-top: 20px;
 }
 
-.big-box button {
-	background-color: #bdbebd; 
+	
+/*.box2 {
+	width: 250px;
 }
+
+.box3 {
+	padding: 0 30px 0 30px;
+	width: 60em;
+	border-left: 1px solid #c6c6c6; 
+	border-right: 1px solid #c6c6c6; 
+
+}*/
 
 footer {
 	background-color: black;
@@ -170,14 +187,22 @@ footer {
 	margin-top: 20px;
 }
 
-.blue-steel {
+/*.blue-steel {
 
+<<<<<<< Updated upstream
   -webkit-transition: color 1s ease-in;
   -moz-transition: color 1s ease-in;
   -o-transition: color 1s ease-in;
+=======
+  -webkit-transition: color 2s ease-in;
+  -moz-transition: color 2s ease-in;
+  -o-transition: color 2s ease-in;
+>>>>>>> Stashed changes
   transition: color 1s ease-in;
+*/
 
-}
+
+a {color:;}
 
 .blue-steel:hover {
   color: #f0f700;
