@@ -139,7 +139,7 @@ nav ul.expand {
 	font-family: 'Futura', sans-serif;
 	font-size: 2.2em;
 	line-height: 1.5;
-	padding-top: 400px;
+	padding-top: 100px;
 }
 
 #numberOne p {
@@ -149,6 +149,12 @@ nav ul.expand {
 	line-height: 1.5;
 	margin-top: 30px;
 }
+
+#numberOne img {
+	margin-top: 120px;
+	visibility: hidden;
+
+	}
 
 #numberTwo {
 	background-color: #d5fb9e; 
@@ -162,7 +168,7 @@ nav ul.expand {
 	font-family: 'Futura', sans-serif;
 	font-size: 2.2em;
 	line-height: 1.5;
-	padding-top: 400px;
+	margin-top: 60px;
 }
 
 #numberTwo p {
@@ -171,6 +177,12 @@ nav ul.expand {
 	font-size: 1.2em;
 	line-height: 1.5;
 	margin-top: 30px;
+}
+
+#numberTwo img {
+	margin-top: 100px;
+	visibility: hidden;
+
 }
 
 #numberThree {
@@ -315,38 +327,15 @@ nav ul.expand {
 	margin-top: 30px;
 }
 
-#about {
+#more_info {
 	background-color: #fbc49e; 
 	height: 820px;
 	text-align: center;
 	width: 100%;
 }
 
-#about h3 {
-	background-color: #fbc49e;
-	font-family: 'Futura', sans-serif;
-	font-size: 2.2em;
-	line-height: 1.5;
-	padding-top: 200px;
-}
-
-#about p {
-	color: #000;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 1.2em;
-	line-height: 1.5;
-	margin-top: 30px;
-}
-
-#more_info {
-	background-color: #fbba9e; 
-	height: 820px;
-	text-align: center;
-	width: 100%;
-}
-
 #more_info h3 {
-	background-color: #fbba9e;
+	background-color: #fbc49e;
 	font-family: 'Futura', sans-serif;
 	font-size: 2.2em;
 	line-height: 1.5;
