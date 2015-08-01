@@ -289,4 +289,11 @@ footer p {
 }
 
 
-
+@media (max-width: 768px){
+    nav{
+    background-color: #fff;
+  }
+    nav ul li {
+      background-color:;
+    }
+  }

@@ -293,7 +293,7 @@ nav ul.expand {
 	font-family: 'Futura', sans-serif;
 	font-size: 2.2em;
 	line-height: 1.5;
-	padding-top: 400px;
+	padding-top: 360px;
 }
 
 #numberSeven p {		
@@ -350,3 +350,31 @@ nav ul.expand {
 	margin-top: 30px;
 }
 
+footer {
+	background-color: #fbf79e;
+	height: 70px;
+	width: 100%;
+}
+
+footer ul li {
+	color: #000;
+	display: inline-block;
+	font-family: 'Futura', sans-serif;
+	font-size: 1.2em;
+	list-style: none;
+	padding: 25px 15px 0 30px;
+}
+
+footer ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+footer ul li a:hover {
+	color: #ff6987;
+	text-decoration: none;
+}
+#madeWithLove {
+	padding-left: 650px;
+}

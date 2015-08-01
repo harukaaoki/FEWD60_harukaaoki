@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
 	$('#hamburger').click(function(){
-		console.log('test');
 		$('#hamburger').toggleClass('active');
 		$('ul').toggleClass('expand');
 
