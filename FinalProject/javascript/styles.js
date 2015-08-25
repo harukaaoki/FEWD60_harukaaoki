@@ -5,7 +5,6 @@ $(document).ready(function() {
 		$('ul').toggleClass('expand');
 
 	});
-});
 
 /* pseudo code for hamburger expansion: 
 
@@ -32,3 +31,7 @@ $("#menu_start").click(function() {
     $('html, body').animate({
         scrollTop: $("#numberOne").offset().top
     }, 3000);
+
+}); // EM: you were missing the closing braces for your function on line 30
+
+}); // EM:It's best to wrap all of your Javascript in the document.ready function. 
